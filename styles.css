@@ -1,0 +1,142 @@
+#title{
+  background:linear-gradient(109.8deg, rgb(62, 5, 116) -5.2%, rgb(41, 14, 151) -5.2%, rgb(216, 68, 148) 103.3%);;
+  color:#ffff;
+}
+h1{
+  font-family:"Montserrat-Black";
+  font-size: 3 rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+body{
+  font-family: "Montserrat";
+    font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+  font-weight: bolder;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+
+}
+
+.downloadbutton{
+  margin:5% 3% 5% 0;
+}
+.titleimage{
+  width: 100%;
+  transform: rotate(0deg);
+}
+#features{
+  padding:7% 15%
+}
+.featurebox{
+  text-align: center;
+  padding: 5%;
+}
+h3{
+  font-family: "Montserrat-Bold"
+}
+p{
+  color:#8f8f8f;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  color:#ff4c68;
+}
+#testimonials{
+
+  text-align: center;
+  background: linear-gradient(63deg, rgb(242, 168, 168) 2.9%, rgb(94, 46, 165) 102.1%);
+  color: #fff;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonialimage{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background:white;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.presslogo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+.carousel-item {
+  padding:7% 15%;
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+  
+  
+}
+#cta{
+   background: radial-gradient(circle at 10% 20%, rgba(77, 97, 252, 0.63) 0%, rgb(77, 97, 252) 90%);;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.ctaheading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.socialicon{
+  margin: 20px 10px;
+}
+
+
+.brief{
+  text-align: center;
+  padding-right: 300px;
+  
+  padding-top: 50px;
+  
+  
+}
+.brief_descp{
+  text-align: right;
+  padding-right: 100px;
+  padding-top: 50px;
+  float: right;
+  
+  padding-bottom: 70px;
+  
+}
+
+.card-header{
+  background: linear-gradient(111.3deg, rgb(74, 105, 187) 9.6%, rgb(205, 77, 204) 93.6%);
+}

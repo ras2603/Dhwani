@@ -1,0 +1,92 @@
+*
+{
+	padding:0;
+	margin:0;
+	background: linear-gradient(109.2deg, rgb(254, 3, 104) 9.3%, rgb(103, 3, 255) 89.5%);
+}
+.container
+{
+	padding:20px;
+	font-family:'Roboto';
+	font-size:16px;
+	font-weight:50;
+	line-height:24px;
+}
+.container p
+{
+	margin-bottom:10px;
+    font-size: 18px;
+    line-height: 2pc;
+    font-family: sans-serif;
+}
+
+
+.thumbanail
+{
+	width:50%;
+	position:relative;
+	box-shadow:0 0 5px rgba(0,0,0,.4);
+	background-color:#fff;
+	overflow:hidden;
+	border-radius:8px;
+	margin-bottom:10px;
+}
+
+.thumbanail img
+{
+	width:100px;
+    height:auto;
+    object-fit: cover;
+    bottom:140px;
+    left:50px;
+    object-position: center;
+    background-repeat:no-repeat;
+    position:absolute;
+    box-shadow:0 20px 20px #faad96;
+    border-radius:50%;
+}
+
+
+
+.thumbanail.right
+{
+	float:right;
+	margin-left:20px;
+}
+.thumbanail.left
+{
+	float:left;
+	margin-right:20px;
+}
+.test{
+	padding:10px 20px;
+    cursor:pointer;
+    font-weight:1000;
+    background-color: #ff511c;
+    color:#ffffff;
+    outline:none;
+    border:none;
+    border-radius:5px;
+}
+
+@media screen and (max-width:767px)
+{
+	
+	.thumbanail.right
+	{
+		float:none;
+		margin-left:0px;
+	}
+	.thumbanail.left
+	{
+		float:none;
+		margin-right:0px;
+	}
+	.thumbanail{
+		width:100%;
+	}
+}
+
+
+
+
